@@ -1,5 +1,7 @@
-﻿using System;
+﻿using EelData.Logger;
+using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -46,9 +48,8 @@ namespace EelDataMonitor.DAL
                     }
                     catch (Exception ex)
                     {
+                        LoggerSingleton.Instance.Log("An exception occurred when attempting to save a new bassin to the database: ", ex);
                         throw;
-
-                        //LoggerSingleton.Instance.Log("An exception occurred when attempting to save a new bassin to the database: ", ex);
                     }
                 }
             }

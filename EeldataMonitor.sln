@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26206.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EelDataMonitor", "EeldataMonitor\EelDataMonitor.csproj", "{0631D5CD-86E5-46C2-9349-A472AFBE8F9B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EelDataMonitor.DAL", "EelDataMonitor.DAL\EelDataMonitor.DAL.csproj", "{2D958664-6994-43E0-A4B4-D70802947F62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EelDataMonitor.Networking", "EelDataMonitor.Networking\EelDataMonitor.Networking.csproj", "{95C52CA2-1679-4535-9EB3-99774C5E4F58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EelData.Logger", "EelData.Logger\EelData.Logger.csproj", "{273CAF99-68BC-4AF8-97AE-511667D2210C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{2D958664-6994-43E0-A4B4-D70802947F62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D958664-6994-43E0-A4B4-D70802947F62}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D958664-6994-43E0-A4B4-D70802947F62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95C52CA2-1679-4535-9EB3-99774C5E4F58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95C52CA2-1679-4535-9EB3-99774C5E4F58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95C52CA2-1679-4535-9EB3-99774C5E4F58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95C52CA2-1679-4535-9EB3-99774C5E4F58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{273CAF99-68BC-4AF8-97AE-511667D2210C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{273CAF99-68BC-4AF8-97AE-511667D2210C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{273CAF99-68BC-4AF8-97AE-511667D2210C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{273CAF99-68BC-4AF8-97AE-511667D2210C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

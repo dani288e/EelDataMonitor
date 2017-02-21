@@ -42,6 +42,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.configuration" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
@@ -105,6 +106,10 @@
     <ProjectReference Include="..\EelDataMonitor.DAL\EelDataMonitor.DAL.csproj">
       <Project>{2d958664-6994-43e0-a4b4-d70802947f62}</Project>
       <Name>EelDataMonitor.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EelDataMonitor.Networking\EelDataMonitor.Networking.csproj">
+      <Project>{95c52ca2-1679-4535-9eb3-99774c5e4f58}</Project>
+      <Name>EelDataMonitor.Networking</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

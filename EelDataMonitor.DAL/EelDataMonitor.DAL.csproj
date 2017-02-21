@@ -120,5 +120,11 @@
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EelData.Logger\EelData.Logger.csproj">
+      <Project>{273caf99-68bc-4af8-97ae-511667d2210c}</Project>
+      <Name>EelData.Logger</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
