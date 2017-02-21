@@ -12,3 +12,10 @@ C:\Users\danie\OneDrive\dev\c#\EeldataMonitor\EeldataMonitor\obj\Debug\EeldataMo
 C:\Users\danie\OneDrive\dev\c#\EeldataMonitor\EeldataMonitor\obj\Debug\EeldataMonitor.csproj.GenerateResource.Cache
 C:\Users\danie\OneDrive\dev\c#\EeldataMonitor\EeldataMonitor\obj\Debug\EeldataMonitor.exe
 C:\Users\danie\OneDrive\dev\c#\EeldataMonitor\EeldataMonitor\obj\Debug\EeldataMonitor.pdb
+C:\Users\danie\OneDrive\dev\c#\EeldataMonitor\EeldataMonitor\bin\Debug\EelDataMonitor.DAL.dll
+C:\Users\danie\OneDrive\dev\c#\EeldataMonitor\EeldataMonitor\bin\Debug\EntityFramework.dll
+C:\Users\danie\OneDrive\dev\c#\EeldataMonitor\EeldataMonitor\bin\Debug\EelDataMonitor.DAL.pdb
+C:\Users\danie\OneDrive\dev\c#\EeldataMonitor\EeldataMonitor\bin\Debug\EelDataMonitor.DAL.dll.config
+C:\Users\danie\OneDrive\dev\c#\EeldataMonitor\EeldataMonitor\bin\Debug\EntityFramework.xml
+C:\Users\danie\OneDrive\dev\c#\EeldataMonitor\EeldataMonitor\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\danie\OneDrive\dev\c#\EeldataMonitor\EeldataMonitor\bin\Debug\EntityFramework.SqlServer.xml

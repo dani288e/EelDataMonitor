@@ -26,5 +26,33 @@ namespace EelDataMonitor.DAL
             }
             return sensorDatas;
         }
+
+        public bool CreateBassin(Bassin record, int hallid)
+        {
+            using (Ringsted1Entities context = new Ringsted1Entities())
+            {
+                Bassin query = (from o in context.Bassins
+                                where o.HallID == record.HallID
+                                select o).FirstOrDefault();
+
+                if (query == null)
+                {
+                    Bassin bassinE = new Bassin();
+                    bassinE.HallID = hallid;
+                    context.Bassins.Add(bassinE);
+                    try
+                    {
+                        context.SaveChanges();
+                    }
+                    catch (Exception ex)
+                    {
+                        throw;
+
+                        //LoggerSingleton.Instance.Log("An exception occurred when attempting to save a new bassin to the database: ", ex);
+                    }
+                }
+            }
+            return true;
+        }
     }
 }

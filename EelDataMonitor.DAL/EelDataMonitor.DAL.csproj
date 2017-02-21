@@ -53,6 +53,7 @@
       <DependentUpon>EelDataEntities.tt</DependentUpon>
     </Compile>
     <Compile Include="DALManager.cs" />
+    <Compile Include="DALManagerSingleton.cs" />
     <Compile Include="EelDataEntities.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
