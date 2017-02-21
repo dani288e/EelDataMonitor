@@ -16,15 +16,16 @@
                 <DataGridTextColumn Header="ID" Width="100" Binding="{Binding ID}"></DataGridTextColumn>
             </DataGrid.Columns>
         </DataGrid>
-        <StackPanel HorizontalAlignment="Left" Height="43" Margin="354,0,0,0" VerticalAlignment="Top" Width="164">
-            <Button x:Name="btn_Feed" Click="btn_Feed_Click" Content="Feed"/>
+        <StackPanel x:Name="stckpnl_Bassin" HorizontalAlignment="Left" Height="143" Margin="354,178,0,-0.2" VerticalAlignment="Top" Width="164">
+            <Label x:Name="lbl_CreateBassin" Content="Bassin Menu" Background="#FFB7B7B7"/>
+            <TextBox x:Name="txtBox_HallID" Text="Enter HallID" Height="23" TextWrapping="Wrap"/>
             <Button x:Name="btn_CreateBassin" Click="btn_CreateBassin_Click" Content="Create Bassin"/>
         </StackPanel>
-        <StackPanel x:Name="stckpnl_Bassin" HorizontalAlignment="Left" Height="143" Margin="354,178,0,-0.2" VerticalAlignment="Top" Width="164">
-            <Label x:Name="label" Content="Feed Menu"/>
-            <TextBox x:Name="txtBox_HallID" Text="Enter HallID" Height="23" TextWrapping="Wrap"/>
+        <StackPanel x:Name="stckpnl_Feed" HorizontalAlignment="Left" Height="178" Margin="354,0,0,0" VerticalAlignment="Top" Width="164">
+            <Label x:Name="label" Content="Feeding Menu" Background="#FFB7B7B7"/>
+            <TextBox x:Name="txtBox_IP" Height="23" TextWrapping="Wrap" Text="Enter IP Address"/>
+            <Button x:Name="btn_Feed" Click="btn_Feed_Click" Content="Send Feed"/>
         </StackPanel>
-        <StackPanel x:Name="stckpnl_Feed" HorizontalAlignment="Left" Height="135" Margin="354,43,0,0" VerticalAlignment="Top" Width="164"/>
 
     </Grid>
 </Window>
